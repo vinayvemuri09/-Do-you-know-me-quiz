@@ -13,12 +13,12 @@ console.log(chalk.blue("Welcome " + userName, ", your quiz will be here: "));
 var highScore = [
   {
     name: "PK",
-    score: 4,
+    score: 5,
   },
 
   {
     name: "AK",
-    score: 3,
+    score: 4,
   },
 ]
 
@@ -32,7 +32,12 @@ var questions = [{
 },{
   question: "What is my favourite sport? ",
   answer: "cricket"
-},{
+},
+{
+  question: "What is my age (enter number) ",
+  answer: "25"
+},
+{
   question: "What is my favorite Food? ",
   answer: "Biryani"
 }];
